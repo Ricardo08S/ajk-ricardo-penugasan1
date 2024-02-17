@@ -31,6 +31,21 @@
     echo "Panjang string: " . strlen($second_sentence) . ",<br>";
     echo "Jumlah kata: " . str_word_count($second_sentence) . "<br>";
 
+    echo "<h3> Soal No 2</h3>";
+    /* 
+        SOAL NO 2
+        Mengambil kata pada string dan karakter-karakter yang ada di dalamnya. 
+        
+        
+    */
+    $string2 = "I love PHP";
+
+    echo "<label>String: </label> \"$string2\" <br>";
+    echo "Kata pertama: " . substr($string2, 0, 1) . "<br>";
+    // Lanjutkan di bawah ini
+    echo "Kata kedua: " . substr($string2, 2, 5);
+    echo "<br> Kata Ketiga: " . substr($string2, 7, 9);
+
     ?>
 </body>
 </html>
