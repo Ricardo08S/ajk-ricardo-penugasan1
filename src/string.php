@@ -45,7 +45,15 @@
     // Lanjutkan di bawah ini
     echo "Kata kedua: " . substr($string2, 2, 5);
     echo "<br> Kata Ketiga: " . substr($string2, 7, 9);
-
+    echo "<h3> Soal No 3 </h3>";
+    /*
+        SOAL NO 3
+        Mengubah karakter atau kata yang ada di dalam sebuah string.
+    */
+    $string3 = "PHP is old but sexy!";
+    echo "String: \"$string3\" " . "<br>";
+    // OUTPUT : "PHP is old but awesome"
+    echo "Ganti kalimat keempat: " . str_replace("sexy!", "awesome", $string3);
     ?>
 </body>
 </html>
