@@ -6,6 +6,9 @@
     <title>String PHP</title>
 </head>
 <body>
+    <h1>Berlatih String PHP</h1>
+    <?php
     
+    ?>
 </body>
 </html>
